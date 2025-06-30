@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)file:///C:/Users/ahmed/.vscode/cli/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task4</title>
+    <link rel="stylesheet" href="./task4_files/all.min.css">
+    <link rel="stylesheet" href="./task4_files/style.css">
+</head>
+<body>
+    <header class="nav">
+        <div class="top">
+            <div class="stl1">
+                <i class="fa-solid fa-chart-pie"></i>
+            </div>
+            <div>
+                <h2>Enterprise Dashboard</h2>
+            </div>
+        </div>
+        <div class="pro">
+            <div class="stl2">
+                <i class="fa-solid fa-bell"></i>
+            </div>
+            <div class="id">
+                <h4>John Doe</h4>
+                <p>Administrator</p>
+            </div>
+            <div>
+                <button class="profile">JD</button>
+            </div>
+        </div>
+    </header>
+    <div class="dashboard">
+        <div>
+            <h2>Dashboard Overview</h2>
+            <p>Welcome back! Here’s what’s happening with your business today.</p>
+        </div>
+        <div class="searchin">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input type="text" class="search-input" placeholder="Search..">
+        </div>
+    </div>
+    <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-header">
+                    <div class="stat-icon revenue">$</div>
+                    <div class="stat-title">Total Revenue</div>
+                </div>
+                <div class="stat-value">$48,752</div>
+                <div class="stat-change positive">↑ 12.5% from last month</div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-header">
+                    <div class="stat-icon orders">🛍️</div>
+                    <div class="stat-title">New Orders</div>
+                </div>
+                <div class="stat-value">2,156</div>
+                <div class="stat-change positive">↑ 8.3% from last month</div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-header">
+                    <div class="stat-icon customers">👥</div>
+                    <div class="stat-title">New Customers</div>
+                </div>
+                <div class="stat-value">524</div>
+                <div class="stat-change negative">↓ 2.1% from last month</div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-header">
+                    <div class="stat-icon value">💰</div>
+                    <div class="stat-title">Avg. Order Value</div>
+                </div>
+                <div class="stat-value">$226</div>
+                <div class="stat-change positive">↑ 5.7% from last month</div>
+            </div>
+        </div>
+
+        <div class="main-grid">
+            <div class="chart-card">
+                <div class="card-header">
+                    <h3 class="card-title">Sales Performance</h3>
+                    <select class="dropdown">
+                        <option>Last 90 Days</option>
+                        <option>Last month</option>
+                        <option>Last week</option>
+                    </select>
+                </div>
+                <div class="chart-placeholder">
+                    Chart Visualization
+                </div>
+            </div>
+
+            <div class="orders-card">
+                <div class="card-header">
+                    <h3 class="card-title">Recent Orders</h3>
+                    <select class="dropdown">
+                        <option>last 30 days</option>
+                        <option>last week</option>
+                        <option>Last day</option>
+                    </select>
+                </div>
+                <table class="orders-table">
+                    <thead>
+                        <tr>
+                            <th>Order ID</th>
+                            <th>Customer</th>
+                            <th>Amount</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="order-id">#ORD-7841</td>
+                            <td>Sarah Johnson</td>
+                            <td>$245.99</td>
+                            <td><span class="status-badge status-completed">Completed</span></td>
+                        </tr>
+                        <tr>
+                            <td class="order-id">#ORD-7840</td>
+                            <td>Michael Chen</td>
+                            <td>$189.50</td>
+                            <td><span class="status-badge status-pending">Pending</span></td>
+                        </tr>
+                        <tr>
+                            <td class="order-id">#ORD-7839</td>
+                            <td>David Wilson</td>
+                            <td>$320.00</td>
+                            <td><span class="status-badge status-completed">Completed</span></td>
+                        </tr>
+                        <tr>
+                            <td class="order-id">#ORD-7838</td>
+                            <td>Emily Davis</td>
+                            <td>$156.75</td>
+                            <td><span class="status-badge status-cancelled">Cancelled</span></td>
+                        </tr>
+                        <tr>
+                            <td class="order-id">#ORD-7837</td>
+                            <td>Robert Brown</td>
+                            <td>$275.30</td>
+                            <td><span class="status-badge status-completed">Completed</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="view-all">
+                    <a href="file:///C:/Users/ahmed/.vscode/cli/index.html#">View All Orders →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-grid">
+            <div class="activity-card">
+                <div class="card-header">
+                    <h3 class="card-title">Recent Activity</h3>
+                    <select class="dropdown">
+                        <option>Today</option>
+                        <option>This Week</option>
+                        <option>This Month</option>
+                    </select>
+                </div>
+                <div class="activity-item">
+                    <div class="activity-avatar" style="background-color: #2563eb;">S</div>
+                    <div class="activity-content">
+                        <div class="activity-name">Sarah Johnson</div>
+                        <div class="activity-description">Placed a new order #ORD-7841 for $245.99</div>
+                        <div class="activity-time">10 minutes ago</div>
+                    </div>
+                </div>
+                <div class="activity-item">
+                    <div class="activity-avatar" style="background-color: #2563eb;">M</div>
+                    <div class="activity-content">
+                        <div class="activity-name">Michael Chen</div>
+                        <div class="activity-description">Updated shipping information for order #ORD-7840</div>
+                        <div class="activity-time">25 minutes ago</div>
+                    </div>
+                </div>
+                <div class="activity-item">
+                    <div class="activity-avatar" style="background-color: #2563eb;">D</div>
+                    <div class="activity-content">
+                        <div class="activity-name">David Wilson</div>
+                        <div class="activity-description">Order #ORD-7839 has been delivered successfully</div>
+                        <div class="activity-time">1 hour ago</div>
+                    </div>
+                </div>
+                <div class="activity-item">
+                    <div class="activity-avatar" style="background-color: #2563eb;">E</div>
+                    <div class="activity-content">
+                        <div class="activity-name">Emily Davis</div>
+                        <div class="activity-description">Cancelled order #ORD-7838</div>
+                        <div class="activity-time">2 hours ago</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="acquisition-card">
+                <div class="card-header">
+                    <h3 class="card-title">Customer Acquisition</h3>
+                    <select class="dropdown">
+                        <option>Last 90 Days</option>
+                        <option>Last month</option>
+                        <option>Last 7 Days</option>
+                    </select>
+                </div>
+                <div class="chart-placeholder">
+                    Chart Visualization
+                </div>
+            </div>
+        </div>
+    
+
+    <footer class="footer">
+        <div class="footer-left">
+            © 2025 Enterprise Dashboard. All rights reserved.
+        </div>
+        <div class="footer-links">
+            <a href="file:///C:/Users/ahmed/.vscode/cli/index.html#">Privacy Policy</a>
+            <a href="file:///C:/Users/ahmed/.vscode/cli/index.html#">Terms of Service</a>
+            <a href="file:///C:/Users/ahmed/.vscode/cli/index.html#">Help Center</a>
+            <a href="file:///C:/Users/ahmed/.vscode/cli/index.html#">Contact Us</a>
+        </div>
+    </footer>
+   </body></html>
